@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.timer {
+    margin-left: 1rem;
+}
+.black {
+    background: black;
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    grid-template-rows: repeat(7, 70px);
+}
+.grid-item {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#clearButton {
+    margin-top: 0.5rem;
+}
